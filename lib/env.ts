@@ -15,11 +15,11 @@ export function defaultTenantId() {
 }
 
 export function chatModelName() {
-  return process.env.OPENAI_MODEL ?? "gpt-5.5";
+  return process.env.OPENAI_MODEL ?? "gpt-5";
 }
 
 export function smallModelName() {
-  return process.env.OPENAI_SMALL_MODEL ?? "gpt-5.4-mini";
+  return process.env.OPENAI_SMALL_MODEL ?? "gpt-5-mini";
 }
 
 export function embeddingModelName() {
@@ -43,7 +43,7 @@ export function ttsResponseFormat() {
 }
 
 export function realtimeModelName() {
-  return process.env.OPENAI_REALTIME_MODEL ?? "gpt-realtime-mini";
+  return process.env.OPENAI_REALTIME_MODEL ?? "gpt-realtime";
 }
 
 export function agentUseSmallModel() {

@@ -54,7 +54,7 @@ const CF7_FIELD_MAP: Record<string, string> = {
 };
 
 const GREETING_TEXT =
-  "Hi! I'm Crowd Agent, your AI consultant. I'll help you fill in this form and find the best growth plan for your business. Let's start — what's your name?";
+  "Happy to help. I can run a quick analysis for you — just send over your website, work email, and contact number with country code, and I'll take it from there.";
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
 

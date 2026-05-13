@@ -57,7 +57,7 @@ const FIELD_LABELS: Partial<Record<keyof LeadFormData, string>> = {
 };
 
 const GREETING_TEXT =
-  "Hi! I'm Crowd Agent, your AI growth consultant. I can audit your website and build a personalised growth plan in under 60 seconds. What's your name?";
+  "Happy to help. I can run a quick analysis for you — just send over your website, work email, and contact number with country code, and I'll take it from there.";
 
 // ---------------------------------------------------------------------------
 // Helpers
