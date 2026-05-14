@@ -47,7 +47,7 @@ function cleanSpeechText(text: string) {
     .replace(/[*_`#>[\]]/g, "")
     .replace(/\s+/g, " ")
     .trim()
-    .slice(0, 1200);
+    .slice(0, 900);
 }
 
 function isCacheable(text: string) {
